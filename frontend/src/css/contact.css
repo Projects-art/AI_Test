@@ -1,0 +1,97 @@
+/* Container for the entire contact page */
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+/* Title styling */
+.contact-title {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+/* Description paragraph */
+.contact-description {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+/* Form styles */
+.contact-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.form-group label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.submit-button {
+  align-self: center;
+  padding: 12px 25px;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  margin-bottom: 90px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+/* Contact info styles */
+.contact-info {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.contact-info h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.contact-info p {
+  font-size: 1.1rem;
+  margin: 5px 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .contact-title {
+    font-size: 2rem;
+  }
+  .contact-info h2 {
+    font-size: 1.5rem;
+  }
+}
